@@ -52,6 +52,10 @@ Flags:
                            store configuration in YAML.
 
 Subcommands:
+  bucket sync [<flags>]
+    Synchronise all blocks with remote bucket. NOTE: Currently NO compactor must
+    be running in the same time.
+
   bucket verify [<flags>]
     Verify all blocks in the bucket against specified issues
 
